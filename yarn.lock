@@ -145,6 +145,11 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.2.100.tgz#86ec1c2e00c357cef1e421fd63863d5c34339ce8"
   integrity sha512-7xtIENf0Yw59AFDM3+xqxPCZxev3QVAqjPmUzmgsB9eL8S/zTpB0IU9srNc7XknzJI4e09XKNnCaJRx3gfYzXA==
 
+"@stripe/stripe-js@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-4.5.0.tgz#0beda9beefc05143ef6955d7bb7960064aecc53c"
+  integrity sha512-dMOzc58AOlsF20nYM/avzV8RFhO/vgYTY7ajLMH6mjlnZysnOHZxsECQvjEmL8Q/ukPwHkOnxSPW/QGCCnp7XA==
+
 esbuild@^0.23.1:
   version "0.23.1"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.23.1.tgz#40fdc3f9265ec0beae6f59824ade1bd3d3d2dab8"

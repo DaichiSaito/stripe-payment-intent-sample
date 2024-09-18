@@ -1,0 +1,8 @@
+<h1>決済ページ</h1>
+
+<!-- カード入力フォーム -->
+<form data-controller="payment" data-payment-stripe-public-key-value="<%= ENV['STRIPE_PUBLIC_KEY'] %>">
+  <div id="card-element" data-payment-target="cardElement"><!-- Stripe Elementsが挿入されます --></div>
+  <button type="button" data-action="click->payment#submit" data-payment-target="submitButton">支払う</button>
+  <div id="error-message" data-payment-target="errorMessage"></div>
+</form>
